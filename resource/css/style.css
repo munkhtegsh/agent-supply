@@ -1,0 +1,58 @@
+html {
+    font-size: 18px;
+}
+
+.container{
+    width: 860px;
+    margin: 0 auto ;
+}
+header{
+    background-color: darkslategray;
+    font-family: Helvetica;
+    font-size: 1rem;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    width: 350px;
+    align-items: center;
+}
+
+
+header img{
+    height: 1.5rem;
+    margin: 0rem 1rem 0rem 0.5rem;
+}
+
+header span{
+    margin: 0.66rem 0rem 0.66rem 0rem;
+}
+
+.jumbotron{
+    background-image: url(../moto.jpeg);
+    height: 25rem;
+    padding-top: 0px;
+    
+}
+
+.banner{
+    width: 20rem;
+    padding-top: 9rem;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: darkslategray;
+}
+
+.banner h3{
+    font-size: 1rem;
+    padding-top: 2rem 0rem 0.25rem 3rem;
+}
+
+.banner h1{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+
