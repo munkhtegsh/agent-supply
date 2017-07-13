@@ -134,6 +134,7 @@ ul a{
 
 .glasses img {
     max-width: 8em;
+    margin-top: 3rem
 }
 
 .combined{
@@ -142,9 +143,12 @@ ul a{
 }
 
 footer{
+    display: flex;
     height: 5rem;
-    background-color:  darkslategray;
+    background-color: #633243;
+;
     margin-top: 4rem;
+    align-items: center;
     
 }
 
@@ -152,10 +156,6 @@ footer p{
     color: white;
     text-align: left;
 }
-
-
-
-
 
 
 
