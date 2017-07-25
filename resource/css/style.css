@@ -166,11 +166,7 @@ footer p{
 }
 
 
-
-
-
-
-@media only screen and (max-width: 760px) and (min-width: 200px){
+@media only screen and (max-width: 700px) and (min-width: 200px){
     .box{
         width: 47%;
     }
@@ -184,7 +180,7 @@ footer p{
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 200px) {
+@media only screen and (max-width: 470px) and (min-width: 200px) {
     .anBox h6{
         background-color: red;
     }
