@@ -166,7 +166,7 @@ footer p{
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) and (min-width: 481px){
     .box{
         width: 47%;
     }
@@ -180,7 +180,11 @@ footer p{
     }
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) and(min-width: 300px) {
+    .anBox h6{
+        background-color: red;
+    }
+    
     .box{
         width: 90%;
     }
@@ -195,8 +199,7 @@ footer p{
     .banner{
         position:absolute;
         width:100%;
-        top: 10rem;
-        
+        top: 10rem;   
     }
     
     .banner h3{
@@ -220,13 +223,17 @@ footer p{
     
     .anBox{
         width: 90%;
+        margin-bottom: 0.5rem;
     }
     
     .combined{
-        flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
     }
     
-
+    footer p{
+        text-align: center;
+    }
     
 
 }
