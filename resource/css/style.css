@@ -76,9 +76,6 @@ ul a{
 
 .white-box{
     display: flex;
-
-    
-    
 }
 
 .products {
@@ -139,14 +136,25 @@ ul a{
 
 .combined{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.anBox{
+    width: 34.5%;
+    
+
+}
+.anBox h6{
+    background-color: darkslategray;
+    color: white;  
+    padding: 1rem 2rem;
 }
 
 footer{
     display: flex;
     height: 5rem;
     background-color: #633243;
-;
     margin-top: 4rem;
     align-items: center;
     
@@ -158,4 +166,68 @@ footer p{
 }
 
 
+@media only screen and (max-width: 768px){
+    .box{
+        width: 47%;
+    }
+    
+    .box:nth-child(3){
+        display: none;
+    }
+    
+    .anBox{
+        width: 35%; 
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .box{
+        width: 90%;
+    }
+    .box:nth-child(2){
+        display:none;
+    }
+    
+    .products{
+        justify-content: center;
+    }
+    
+    .banner{
+        position:absolute;
+        width:100%;
+        top: 10rem;
+        
+    }
+    
+    .banner h3{
+        font-family: Helvetica;
+        font-size: 0.77rem;
+        font-weight: bold;
+        padding-top: 1rem;
+    }
+    
+    .banner h2{
+        font-family: Helvetica;
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .jumbotron{
+        height: 13rem;
+    }
+    
+    .anBox{
+        width: 90%;
+    }
+    
+    .combined{
+        flex-wrap: wrap
+    }
+    
+
+    
+
+}
 
