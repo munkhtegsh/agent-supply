@@ -166,7 +166,7 @@ footer p{
 }
 
 
-@media only screen and (max-width: 900px) and (min-width: 481px){
+@media only screen and (max-width: 900px) and (min-width: 200px){
     .box{
         width: 47%;
     }
